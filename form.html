@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width initial-scale=1.0">
+    </head>
+    <body style="background-color: #DDAACC;">
+        <h1> Submit your Resume</h1>
+        <br>
+        <fieldset>
+            <legend> Personal details </legend>
+            First name : <input type="text" placeholder="Enter your first name " name="first_name"> <br> <br>
+            Middle name : <input type="text" placeholder="Enter your second name " name="mid_name"> <br> <br>
+            Last name : <input type="text" placeholder="Enter your last name " name="last_name"> <br> <br>
+            Date of Birth : <input type="date"> <br> <br>
+            Age in years : <input type="number"> <br><br>
+            Gender : 
+            <input type="radio" value="male" name="male"> Male
+            <input type="radio" value="female" name="female"> Female
+        </fieldset>
+        <meter value="20" max="100"> </meter> 20% out of 100%
+        <br><br>
+
+        <fieldset> 
+            <legend> Address details </legend>
+            <br><br>
+            Address : <br> <textarea name="address" placeholder="Address"> </textarea> <br><br>
+            City/Town : <input type="text" placeholder="city/town" name="address"> <br><br>
+            State : <input type=" text " placeholder="State" name="state"> <br><br>
+            Zip code : <input type=" text " placeholder="Zip Code" name="zip_code"> <br><br>
+        </fieldset>
+        <meter value="40" max="100"> </meter> 40% out of 100%
+        <br><br>
+
+        <fieldset>
+            <legend> Contact information </legend>
+            Telephone : <input type="text" placeholder="Telephone" name="tel"> <br><br>
+            Mobile : <input type="text" placeholder="Mobile" name="mob"> <br><br>
+            Email : <input type="text" placeholder="Email" name="email"> <br><br>
+            Website : <input type="text" placeholder="Website" name="website"> <br><br>
+        </fieldset>
+        <meter value="60" max="100"></meter> 60% out of 100%
+        <br><br>
+
+        <fieldset>
+            <legend> Educational Details </legend>
+            <table border-collapse="collapse" border="1">
+                <tr>
+                    <th> Qualification </th>
+                    <th> Board/University </th>
+                    <th> Country </th>
+                    <th> Starting year </th>
+                    <th> Ending year </th>
+                    <th> Percentage</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="checkbox" value="10th"> 10th
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Board/University" name="10th_board"> 
+                    </td>
+                    <td>
+                        <select name="country1">
+                            <option value="--"> Select country </option>
+                            <option value="aus"> Australia</option>
+                            <option value="india"> India </option>
+                            <option value="japan"> Japan </option>
+                            <option value="uk"> UK </option>
+                            <option value="usa"> USA </option>
+                        </select>
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="checkbox" value="12th"> 12th
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Board/University" name="12th_board"> 
+                    </td>
+                    <td>
+                        <select name="country2">
+                            <option value="--"> Select country </option>
+                            <option value="aus"> Australia</option>
+                            <option value="india"> India </option>
+                            <option value="japan"> Japan </option>
+                            <option value="uk"> UK </option>
+                            <option value="usa"> USA </option>
+                        </select>
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="checkbox" value="btech"> B.Tech
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Board/University" name="btech_univ"> 
+                    </td>
+                    <td>
+                        <select name="country3">
+                            <option value="--"> Select country </option>
+                            <option value="aus"> Australia</option>
+                            <option value="india"> India </option>
+                            <option value="japan"> Japan </option>
+                            <option value="uk"> UK </option>
+                            <option value="usa"> USA </option>
+                        </select>
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="checkbox" value="mtech"> M.Tech
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Board/University" name="mtech_univ"> 
+                    </td>
+                    <td>
+                        <select name="country4">
+                            <option value="--"> Select country </option>
+                            <option value="aus"> Australia</option>
+                            <option value="india"> India </option>
+                            <option value="japan"> Japan </option>
+                            <option value="uk"> UK </option>
+                            <option value="usa"> USA </option>
+                        </select>
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td> 
+                        <input type="date">
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <meter value="80" max="100"> </meter> 80% out of 100%
+        <br><br>
+
+        <fieldset>
+            Attach your resume in .docx or .pdf format <br>
+            <input type="file" name="file_attach"> <br><br>
+            <input type="checkbox" name="agreement" value="agree"> I filled all the details
+        </fieldset>
+        <meter value="100" max="100"> </meter> 100% out of 100%
+        <br><br>
+        <input type="submit" name="submit">
+    </body>
+</html>
